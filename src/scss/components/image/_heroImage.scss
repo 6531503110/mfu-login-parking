@@ -1,0 +1,15 @@
+.a-heroImage {
+  width: calc(97% - 575px);
+  height: 100vh;
+
+  background-image: url(https://en.mfu.ac.th/fileadmin/mainsite_news_eng/news/2021/DJI_0692-min.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media screen and (max-width: 500px) {
+    width: 0;
+
+    background: none;
+  }
+}
